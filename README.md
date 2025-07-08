@@ -25,7 +25,7 @@ hashed_password = generate_password_hash(
     method="pbkdf2:sha256",
     salt_length=12
 )
-
+```
 
 📮 Data Deletion Requests (GDPR/CCPA)
 Sentrya allows users to automatically send GDPR/CCPA data deletion requests to companies and data brokers via email. These requests are sent from the user's Gmail account using their explicit consent and OAuth.
